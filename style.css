@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu Bar */
+
+.menu{
+    background: #182047;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    color: burlywood;
+    text-decoration: none;
+    padding: 20px;
+    border-right: 1px solid burlywood;
+    margin-left: -4px;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    background: #21294f;
+    color: #ddd;
+}
+
+.menu ul li:first-child a{
+    border-left: 1px solid burlywood;
+}
+
+/* Banner */
+
+.banner{
+    background-image: url(./images/bigger-background.png);
+    background-size: cover;
+    padding: 200px 0;
+    color: burlywood;
+    text-align: center;
+}
+
+.banner h1{
+    margin: 30px 0;
+    font-size: 60px;
+}
+
+.banner h4{
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+/* Footer */
+
+.footer{
+    background: #182047;
+    color: burlywood;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
